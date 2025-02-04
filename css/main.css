@@ -52,7 +52,7 @@ span {
     background-color: #ff0000;
     color: #fff;
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
 
 }
 
@@ -61,7 +61,7 @@ span {
     background-color: #008000;
     color: #fff;
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
     left: 0px;
 }
 
@@ -70,12 +70,13 @@ span {
     background-color: #008000;
     color: #fff;
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
     left: 60px;
 }
 
 .modelli{
     position: relative;
+    padding-bottom: 30px;
 }
 
 .cuore {
@@ -154,7 +155,6 @@ main {
 main .central-nav>div.modelli {
     /*height: 700px;*/
     width: 450px;
-    border: 2px solid black;
 }
 
 .modelli img {
