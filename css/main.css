@@ -1,5 +1,25 @@
+/*** reset ***/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*** bg ***/
+
+.bg-orange{
+    height: 70px;
+    background-color: #ff6900;
+}
+
+.bg-marine {
+    height: 1450px;
+    background-color: aquamarine;
+}
+
+.bg-black{
+    height: 70px;
+    background-color: #000;
 }
