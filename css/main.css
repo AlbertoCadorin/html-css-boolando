@@ -78,6 +78,15 @@ span {
     position: relative;
 }
 
+.cuore {
+    position: absolute;
+    background-color: #fff;
+    font-size: 25px;
+    padding: 20px;
+    top: 10px;
+    right: 0;
+}
+
 /*** header ***/
 
 header{
