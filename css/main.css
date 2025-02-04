@@ -26,6 +26,13 @@ a {
 .boolean{
     width: 100px;
 }
+
+h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
 /*** header ***/
 
 header{
@@ -81,13 +88,11 @@ header .generi ul{
 /*** main ***/
 
 main {
-    background-color: aquamarine;
     padding: 60px 0;
 }
 
 main .central-nav{
     display: flex;
-    background-color: rgb(143, 226, 8);
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -104,7 +109,7 @@ main .central-nav>div.modelli {
 /*** footer ***/
 
 footer{
-    height: 70px;
+    height: 100px;
     background-color: #000;
     border-bottom: 2px solid white;
     padding: 15px 0;
@@ -112,11 +117,27 @@ footer{
 
 footer .footer-nav{
     display: flex;
-    background-color: blueviolet;
     justify-content: space-between;
 }
 
 footer .footer-nav>div{
     padding: 10px;
-    border: 2px solid #ff6900;
+}
+
+footer .info ul{
+    gap: 10px;
+    font-size: 14px;
+}
+
+footer .icone-foot h3{
+    font-size: 12px;
+}
+
+footer .icone-foot ul {
+    gap: 10px;
+    font-size: 13px;
+}
+
+.link-menu i {
+    color: #fff;
 }
