@@ -66,12 +66,22 @@ main .central-nav>div.modelli {
     width: 450px;
 }
 
-
-
-
-
 /*** footer ***/
+
 footer{
     height: 70px;
     background-color: #000;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+}
+
+footer .footer-nav{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+
+footer .footer-nav>div{
+    padding: 10px;
+    border: 2px solid #ff6900;
 }
