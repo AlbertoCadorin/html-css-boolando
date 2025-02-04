@@ -102,8 +102,12 @@ main .central-nav>div{
 }
 
 main .central-nav>div.modelli {
-    height: 700px;
+    /*height: 700px;*/
     width: 450px;
+}
+
+.modelli img {
+    width: 100%;
 }
 
 /*** footer ***/
