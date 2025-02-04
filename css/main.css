@@ -7,12 +7,47 @@
     font-family: sans-serif;
 }
 
-/*** bg ***/
+/*** header ***/
 
-.bg-orange{
-    height: 70px;
+header{
     background-color: #ff6900;
+    padding: 15px 0;
 }
+
+header .main-nav{
+    display: flex;
+    background-color: blue;
+}
+
+header .main-nav>div{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+header .main-nav>div.generi,
+header .main-nav>div.icone {
+    width: 240px;
+    flex-shrink: 0;
+}
+
+header .main-nav>div.logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/*** container ***/
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+
+
+
+
+
 
 .bg-marine {
     height: 1450px;
