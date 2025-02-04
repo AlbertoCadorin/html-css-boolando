@@ -27,10 +27,55 @@ a {
     width: 100px;
 }
 
+h2 {
+    font-size: 17px;
+}
+
 h3 {
     font-size: 15px;
     padding-bottom: 10px;
     color: #fff;
+}
+
+span {
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.originale {
+    color: #000;
+    text-decoration: line-through;
+}
+
+.offerta {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+
+}
+
+.sostenibilita {
+    padding: 10px;
+    background-color: #008000;
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+}
+
+.sostenibilita-1 {
+    padding: 10px;
+    background-color: #008000;
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+}
+
+.modelli{
+    position: relative;
 }
 
 /*** header ***/
@@ -91,24 +136,22 @@ main {
     padding: 60px 0;
 }
 
-main .central-nav{
+.central-nav{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-main .central-nav>div{
-    border: 2px solid black;   
-}
-
 main .central-nav>div.modelli {
     /*height: 700px;*/
     width: 450px;
+    border: 2px solid black;
 }
 
 .modelli img {
     width: 100%;
 }
+
 
 /*** footer ***/
 
