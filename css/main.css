@@ -39,22 +39,39 @@ header .main-nav>div.logo {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 1380px;
 }
 
 
+/*** main ***/
 
-
-
-
-
-
-.bg-marine {
-    height: 1450px;
+main {
     background-color: aquamarine;
+    padding: 60px 0;
 }
 
-.bg-black{
+main .central-nav{
+    display: flex;
+    background-color: rgb(143, 226, 8);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .central-nav>div{
+    border: 2px solid black;   
+}
+
+main .central-nav>div.modelli {
+    height: 700px;
+    width: 450px;
+}
+
+
+
+
+
+/*** footer ***/
+footer{
     height: 70px;
     background-color: #000;
 }
