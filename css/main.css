@@ -183,7 +183,7 @@ main .central-nav>div.modelli {
 /*** footer ***/
 
 footer{
-    height: 100px;
+    /*height: 100px;*/
     background-color: #000;
     border-bottom: 2px solid white;
     padding: 15px 0;
