@@ -29,6 +29,7 @@ a {
 
 h2 {
     font-size: 17px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -124,7 +125,8 @@ main .central-nav>div.modelli {
 }
 
 .modelli img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
 .img-hover{
@@ -136,6 +138,10 @@ main .central-nav>div.modelli {
 .img-hover:hover{
     opacity: 1;
     transition: 0.2s;
+}
+
+.bot-card {
+    padding-top: 10px;
 }
 
 .offerta {
